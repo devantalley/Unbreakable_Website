@@ -11,7 +11,7 @@ LAYOUT
 ************/
 body {
   /* Center to Page   */
-
+color:white;
 }
 
 .navbar-brand {
@@ -58,7 +58,7 @@ video {
 Synopsis
 ************/
 article {
-  color:;
+  color:white;
   font-family: 'Open Sans', sans-serif;
   margin: 20px;
 }
@@ -69,7 +69,7 @@ article {
 li {
   margin:20px;
   display: inline;
-  color:;
+  color:white;
   font-family: 'Pathway Gothic One', sans-serif;
 }
   #similar {
@@ -87,28 +87,33 @@ li {
   /* Actors */
   .cast {
     position: relative;
-     width:  200px;
+     width:  180px;
      height: auto;
      background-position: 50% 50%;
      background-repeat:   no-repeat;
      background-size:     cover;
-     margin:0 0 0 20px;
-   border: 3px solid white;
- }
- .people {
+     margin:0 10px;
+  }
+  .cast:hover {
+    transform: scale(1.1); 
+}
+.column {
+  margin:0 20px;
+}
+  .people {
    font-family: 'Open Sans', sans-serif;
-   color:;
+   color:white;
    font-size:1em;
    text-align:center;
-   margin:0 0 0 20px;
+  
  }
- .people a:hover {
+ .people:hover {
    color: teal;
  }
  .subhead {
    font-size:2.5em;
    font-family:'Pathway Gothic One', sans-serif;
-   margin: 20px;
+   color:white;
  }
 /************
 FOOTER
@@ -116,7 +121,7 @@ FOOTER
 footer {
   text-align: center;
   font-family:'Open Sans', sans-serif;
-  color:;
+  color:white;
 }
 
 footer ul {
