@@ -62,6 +62,9 @@ article {
   font-family: 'Open Sans', sans-serif;
   margin: 20px;
 }
+article p {
+  max-width:75ch;
+}
 .subhead {
   font-size:2.5em;
   font-family:'Pathway Gothic One', sans-serif;
