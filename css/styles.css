@@ -2,41 +2,33 @@
   DIAGNOSTIC STYLING
 */
 body {
-  background: gray;
+  background:black;
 }
 
-* {
-  outline: 1px dotted black;
-}
 
 /************
 LAYOUT
 ************/
 body {
   /* Center to Page   */
-  margin: 0 auto;
-  max-width: 56em;
-  padding: 1em 0;
-  
-  /* CSS Grid Layout   */
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: auto;
-  grid-gap: 1em;
+
 }
 
-header,
-footer {
-  grid-column: 1 / span 5;
+.navbar-brand {
+  justify-content: space-around;
+  width:100%;
+  background-color:black;
+  font-family: 'Pathway Gothic One', sans-serif;
+  font-size: 1em;
 }
 
-main {
-  grid-column: 1 / span 3;
+a:link, a:visited {
+  color:white;
+}
+nav.navbar a:hover {
+  color: teal;
 }
 
-aside {
-  grid-column: span 2;
-}
 
 
 /************
@@ -63,29 +55,98 @@ video {
 }
 
 /************
-ACTORS
+Synopsis
 ************/
-main section { 
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+article {
+  color:;
+  font-family: 'Open Sans', sans-serif;
+  margin: 20px;
 }
-
+.subhead {
+  font-size:2.5em;
+  font-family:'Pathway Gothic One', sans-serif;
+}
+li {
+  margin:20px;
+  display: inline;
+  color:;
+  font-family: 'Pathway Gothic One', sans-serif;
+}
+  #similar {
+    position: relative;
+    width:  190px;
+    height: auto;
+    background-position: 50% 50%;
+    background-repeat:   no-repeat;
+    background-size:     cover;
+    margin:10px;
+}
+#similar:hover {
+  transform: scale(1.1); 
+  }
+  /* Actors */
+  .cast {
+    position: relative;
+     width:  200px;
+     height: auto;
+     background-position: 50% 50%;
+     background-repeat:   no-repeat;
+     background-size:     cover;
+     margin:0 0 0 20px;
+   border: 3px solid white;
+ }
+ .people {
+   font-family: 'Open Sans', sans-serif;
+   color:;
+   font-size:1em;
+   text-align:center;
+   margin:0 0 0 20px;
+ }
+ .people a:hover {
+   color: teal;
+ }
+ .subhead {
+   font-size:2.5em;
+   font-family:'Pathway Gothic One', sans-serif;
+   margin: 20px;
+ }
 /************
 FOOTER
 ************/
 footer {
   text-align: center;
+  font-family:'Open Sans', sans-serif;
+  color:;
+}
+
+footer ul {
+  display: flex;
+  justify-content: center;
+}
+
+footer li {
+  list-style: none;
+}
+
+footer li img {
+  margin: 0 .5em;
+}
+
+.navbar-brand {
+  justify-content: space-around;
+  width:100%;
+  background-color:black;
+  font-family: 'Pathway Gothic One', sans-serif;
+  font-size: 1em;
+}
+
+a:link, a:visited {
+  color:white;
+}
+nav.navbar a:hover {
+  color: teal;
 }
 
 /************
 RWD
 ************/
-@media (max-width: 700px) {
-
-  main,
-  aside {
-    grid-column: 1 / span 5;
-  }
-  
-}
