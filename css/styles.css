@@ -40,16 +40,47 @@ MOVIE TRAILER w/ MEDIA ELEMENT PLAYER
 video {
   max-width: 100%;
 }
-
 .mejs__currenttime, 
 .mejs__duration {
-  font-size: 18px;
+  font-size: 16px;
 }
-
 .mejs__time-current {
-  background: tomato;
+  background:white;
 }
-
+.overlay {
+  position: absolute;
+  top: 60px; right: 0; bottom: 0; left: 0;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.video-container {
+  position: relative;
+}
+.overlay h1 {
+  color:white;
+  flex-direction: row;
+  line-length:10em;
+  font-size:100px;
+  font-family:'Pathway Gothic One', sans-serif;
+}
+.overlay h2 {
+  font-family:font-family: 'Open Sans', sans-serif;
+  color:white;
+}
+.button {
+  font-family:'Pathway Gothic One', sans-serif;
+  margin:10px;
+}
+.ratings {
+  max-width:30%;
+  bottom:70px;
+  }
+  @media only screen and (min-width: 1278px) {
+    #stars {
+      width:50%;
+    }
+  }
 /************
 Synopsis
 ************/
