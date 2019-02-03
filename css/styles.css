@@ -13,7 +13,6 @@ body {
   /* Center to Page   */
 color:white;
 }
-
 .navbar-brand {
   justify-content: space-around;
   width:100%;
@@ -21,15 +20,12 @@ color:white;
   font-family: 'Pathway Gothic One', sans-serif;
   font-size: 1em;
 }
-
 a:link, a:visited {
   color:white;
 }
 nav.navbar a:hover {
   color: teal;
 }
-
-
 
 /************
 HEADER
