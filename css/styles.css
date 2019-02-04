@@ -79,9 +79,10 @@ video {
   max-width:30%;
   bottom:70px;
   }
-  @media only screen and (min-width: 1278px) {
+  @media only screen and (min-width: 100px) {
     #stars {
       width:50%;
+      top: 150px; right: 0; bottom: 0; left: 0;
     }
   }
 /************
