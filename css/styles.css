@@ -45,7 +45,7 @@ video {
   font-size: 16px;
 }
 .mejs__time-current {
-  background:white;
+  background:teal;
 }
 .overlay {
   position: absolute;
@@ -103,6 +103,9 @@ li {
   color:white;
   font-family: 'Pathway Gothic One', sans-serif;
 }
+u {
+  text-decoration: initial;
+}
   #similar {
     position: relative;
     width:  190px;
@@ -136,6 +139,7 @@ li {
    color:white;
    font-size:1em;
    text-align:center;
+   margin:10px;
   
  }
  .people:hover {
@@ -151,6 +155,7 @@ FOOTER
 ************/
 .logo {
   width:10%;
+  padding:20px;
 }
 footer {
   text-align: center;
