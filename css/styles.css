@@ -197,4 +197,19 @@ a:link, a:visited {
 nav.navbar a:hover {
   color: teal;
 }
+/************
+MEDIA QUERIES
+************/
+@media (max-width: 600px) {
 
+  body {
+    background: red !important;
+  }
+
+  .overlay {
+    position: static;
+    font-size: 1em;
+  }
+
+
+}
