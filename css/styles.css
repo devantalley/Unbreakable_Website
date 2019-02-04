@@ -19,12 +19,14 @@ color:white;
   background-color:black;
   font-family: 'Pathway Gothic One', sans-serif;
   font-size: 1em;
+  
 }
 a:link, a:visited {
   color:white;
 }
 nav.navbar a:hover {
   color: teal;
+  border:solid 1px teal;
 }
 
 /************
@@ -161,19 +163,6 @@ footer {
   text-align: center;
   font-family:'Open Sans', sans-serif;
   color:white;
-}
-
-footer ul {
-  display: flex;
-  justify-content: center;
-}
-
-footer li {
-  list-style: none;
-}
-
-footer li img {
-  margin: 0 .5em;
 }
 
 .navbar-brand {
