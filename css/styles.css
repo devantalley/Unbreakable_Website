@@ -143,7 +143,7 @@ u {
    color:white;
    font-size:1em;
    text-align:center;
-   margin:10px;
+   
   
  }
  .people:hover {
@@ -154,6 +154,26 @@ u {
    font-family:'Pathway Gothic One', sans-serif;
    color:white;
  }
+ /* Question Box */
+ #box {
+  margin:20px;
+}
+#trivia {
+  color:black;
+   font-family: 'Open Sans', sans-serif;
+  font-size:1.25em;
+}
+.content {
+  margin:20px;
+  color:white;
+  font-family: 'Open Sans', sans-serif;
+}
+#four {
+  color:black;
+  font-size:2.5em;
+  font-family:'Pathway Gothic One', sans-serif;
+}
+
 /************
 FOOTER
 ************/
