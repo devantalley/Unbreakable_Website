@@ -51,7 +51,7 @@ video {
 }
 .overlay {
   position: absolute;
-  top: 350px; right: 0; bottom: 0; left: 0;
+  top: 0; right: 0; bottom: 0; left: 0;
   align-items: left;
   justify-content: left;
   text-align: left;
@@ -79,6 +79,7 @@ video {
   max-width:30%;
   bottom:70px;
   }
+
 /************
 Synopsis
 ************/
@@ -173,7 +174,7 @@ u {
 FOOTER
 ************/
 .logo {
-  width:10%;
+  width:20%;
   padding:20px;
 }
 footer {
