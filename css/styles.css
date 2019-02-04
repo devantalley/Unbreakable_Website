@@ -2,42 +2,32 @@
   DIAGNOSTIC STYLING
 */
 body {
-  background: gray;
+  background:black;
 }
 
-* {
-  outline: 1px dotted black;
-}
 
 /************
 LAYOUT
 ************/
 body {
   /* Center to Page   */
-  margin: 0 auto;
-  max-width: 56em;
-  padding: 1em 0;
+color:white;
+}
+.navbar-brand {
+  justify-content: space-around;
+  width:100%;
+  background-color:black;
+  font-family: 'Pathway Gothic One', sans-serif;
+  font-size: 1em;
   
-  /* CSS Grid Layout   */
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: auto;
-  grid-gap: 1em;
 }
-
-header,
-footer {
-  grid-column: 1 / span 5;
+a:link, a:visited {
+  color:white;
 }
-
-main {
-  grid-column: 1 / span 3;
+nav.navbar a:hover {
+  color: teal;
+  border:solid 1px teal;
 }
-
-aside {
-  grid-column: span 2;
-}
-
 
 /************
 HEADER
@@ -52,40 +42,159 @@ MOVIE TRAILER w/ MEDIA ELEMENT PLAYER
 video {
   max-width: 100%;
 }
-
 .mejs__currenttime, 
 .mejs__duration {
-  font-size: 18px;
+  font-size: 16px;
 }
-
 .mejs__time-current {
-  background: tomato;
+  background:teal;
 }
+.overlay {
+  position: absolute;
+  top: 0; right: 0; bottom: 0; left: 0;
+  align-items: left;
+  justify-content: left;
+  text-align: left;
+  margin:40px;
+}
+.video-container {
+  position: relative;
+}
+.overlay h1 {
+  color:white;
+  flex-direction: row;
+  max-width:10em;
+  font-size:100px;
+  font-family:'Pathway Gothic One', sans-serif;
+}
+.overlay h2 {
+  font-family:'Open Sans', sans-serif;
+  color:white;
+}
+.button {
+  font-family:'Pathway Gothic One', sans-serif;
+  margin:10px;
+}
+#stars {
+  max-width:30%;
+  bottom:70px;
+  }
 
 /************
-ACTORS
+Synopsis
 ************/
-main section { 
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+article {
+  color:white;
+  font-family: 'Open Sans', sans-serif;
+  margin: 20px;
+}
+article p {
+  max-width:75ch;
+}
+.subhead {
+  font-size:2.5em;
+  font-family:'Pathway Gothic One', sans-serif;
+}
+li {
+  margin:20px;
+  display: inline;
+  color:white;
+  font-family: 'Pathway Gothic One', sans-serif;
+}
+u {
+  text-decoration: initial;
+}
+  #similar {
+    position: relative;
+    width:  190px;
+    height: auto;
+    background-position: 50% 50%;
+    background-repeat:   no-repeat;
+    background-size:     cover;
+    margin:10px;
+}
+#similar:hover {
+  transform: scale(1.1); 
+  border: solid 3px teal;
+  }
+  /* Actors */
+  .cast {
+    position: relative;
+     width:  180px;
+     height: auto;
+     background-position: 50% 50%;
+     background-repeat:   no-repeat;
+     background-size:     cover;
+     margin:0 10px;
+  }
+  .cast:hover {
+    transform: scale(1.1); 
+    border: solid 3px teal;
+}
+.column {
+  margin:0 20px;
+}
+  .people {
+   font-family: 'Open Sans', sans-serif;
+   color:white;
+   font-size:1em;
+   text-align:center;
+   
+  
+ }
+ .people:hover {
+   color: teal;
+ }
+ .subhead {
+   font-size:2.5em;
+   font-family:'Pathway Gothic One', sans-serif;
+   color:white;
+ }
+ /* Question Box */
+ #box {
+  margin:20px;
+}
+#trivia {
+  color:black;
+   font-family: 'Open Sans', sans-serif;
+  font-size:1.25em;
+}
+.content {
+  margin:20px;
+  color:white;
+  font-family: 'Open Sans', sans-serif;
+}
+#four {
+  color:black;
+  font-size:2.5em;
+  font-family:'Pathway Gothic One', sans-serif;
 }
 
 /************
 FOOTER
 ************/
+.logo {
+  width:20%;
+  padding:20px;
+}
 footer {
   text-align: center;
+  font-family:'Open Sans', sans-serif;
+  color:white;
 }
 
-/************
-RWD
-************/
-@media (max-width: 700px) {
-
-  main,
-  aside {
-    grid-column: 1 / span 5;
-  }
-  
+.navbar-brand {
+  justify-content: space-around;
+  width:100%;
+  background-color:black;
+  font-family: 'Pathway Gothic One', sans-serif;
+  font-size: 1em;
 }
+
+a:link, a:visited {
+  color:white;
+}
+nav.navbar a:hover {
+  color: teal;
+}
+
