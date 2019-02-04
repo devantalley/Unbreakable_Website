@@ -119,6 +119,7 @@ u {
 }
 #similar:hover {
   transform: scale(1.1); 
+  border: solid 3px teal;
   }
   /* Actors */
   .cast {
@@ -132,6 +133,7 @@ u {
   }
   .cast:hover {
     transform: scale(1.1); 
+    border: solid 3px teal;
 }
 .column {
   margin:0 20px;
