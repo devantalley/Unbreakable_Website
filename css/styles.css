@@ -79,10 +79,6 @@ video {
   max-width:30%;
   bottom:70px;
   }
-  @media screen and (max-width: 600px) {
-    .overlay {
-      width: 40%;
-    }
 /************
 Synopsis
 ************/
